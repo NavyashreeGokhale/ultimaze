@@ -1,2 +1,2 @@
-# ultimaze
+# ultimez
  html,css,js
