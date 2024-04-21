@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>TABLE WITH CSS</title>
+    <style>
+        #container{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-collapse:collapse;
+            width:100px;
+        }
+        #container td,#container th{
+            border:8px solid beige;
+            vertical-align: middle;
+            padding:5px;
+        }
+
+        #container tr:hover{background-color: plum;}
+        #container tr:nth-child(even){background-color: aqua;}
+        #container th{
+            padding-bottom:5px;
+            text-align: center;
+            color:aliceblue;
+            background-color: blue;
+        }
+
+        div.static{
+            position:static;
+            border:2px solid black;
+        }
+        div.relative{
+            position:relative;
+            width:200px;
+            border:1.5px solid brown;
+        }
+        div.fixed{
+            width:500px;
+            position:fixed;
+            border:1px solid coral;
+        }
+        div.absoluterelative{
+            width:900px;
+            position:relative;
+            border:1.5px solid brown;
+        }
+        div.absolute{
+            position:absolute;
+            border:1.5px solid brown;
+        }
+        </style>
+        </head>
+        <body>
+            <div style="overflow: auto;">
+            <th>TABLE</th>
+
+            <table id="container">
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>CGPA</th>
+                </tr>
+                <tr>
+                    <td>Swayam</td>
+                    <td>BBA</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>Faaruk</td>
+                    <td>BA</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>BCA</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                </tr>
+                    
+                <tr>
+                    <td>Gijnesh</td>
+                    <td>BSC</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                    <td>7.8</td>
+                </tr>
+                <tr>
+                    <td>Diljeet</td>
+                    <td>BCOM</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                    <td>8.7</td>
+                </tr>
+            </table>
+            </div>
+            <h2><B>Static Positioning</B></h2>
+            <div class="static">CSS Tables: Utilized for organizing data into rows and columns within web pages, CSS tables offer a structured layout for presenting tabular information, allowing for customization of styling and responsiveness.
+
+            </div>
+                <h3><B>Relative Positioning</B></h3>
+                <div class="relative">CSS Tables:
+                </div>
+
+            <h4><B>Fixed Positioning</B></h4>
+            <div class="fixed">CSS Tables: Utilized for organizing data into rows and columns within web pages, CSS tables offer a structured layout for presenting tabular information, allowing for customization of styling and responsiveness.
+            </div>
+                <h4><B>Absolute relative Positioning</B></h4>
+                <div class="absoluterelative"> a structured  </div>
+                    <h4><B>Absolute Positioning</B></h4>
+                    <div class="absolute">CSS Tables: Utilized for organizing data into rows and columns within web pages, CSS tables offer a structured layout for presenting tabular information, allowing for customization of styling and responsiveness.
+                        Positioning in CSS: Employed </div>
+            </body>
+        </html>
